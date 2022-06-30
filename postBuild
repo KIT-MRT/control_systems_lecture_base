@@ -1,0 +1,2 @@
+jupyter serverextension enable --py nbgitpuller --sys-prefix
+python3 -m pip install --upgrade webio_jupyter_extension
