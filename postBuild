@@ -3,5 +3,4 @@ export IJULIA_NODEFAULTKERNEL=true
 jupyter serverextension enable --py nbgitpuller --sys-prefix
 python3 -m pip install --upgrade webio_jupyter_extension
 
-julia create_sysimage.jl
-julia install_precompiled_kernel.jl
+julia --project=${REPO_DIR} create_sysimage.jl
