@@ -1,5 +1,5 @@
 using PackageCompiler
-sysimage_path = "ControlSystemsPrecompile.so"
+sysimage_path = joinpath(dirname(Base.active_project()), "ControlSystemsPrecompile.so")
 create_sysimage(
     Symbol[
         :ControlSystems,
