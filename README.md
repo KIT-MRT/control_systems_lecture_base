@@ -7,6 +7,7 @@ This repository contains the environment setup to run interactive Julia notebook
 The notebooks itself are stored in a separate [content repository](https://github.com/KIT-MRT/control_systems_lecture_content), where you can also find detailed usage instructions.
 
 - Binder link for this base environment: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/KIT-MRT/control_systems_lecture_base/HEAD)
+- - Binder link for this base environment's dev branch: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/KIT-MRT/control_systems_lecture_base/dev)
 
 ## License
 
